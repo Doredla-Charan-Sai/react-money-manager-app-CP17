@@ -144,7 +144,7 @@ class MoneyManager extends Component {
                 TYPE
               </label>
               <select
-                defaultValue={transactionTypeOptions[0].displayText}
+                defaultValue={transactionTypeOptions[0].optionId}
                 id="type"
                 className="input"
                 onChange={this.onSelectType}
