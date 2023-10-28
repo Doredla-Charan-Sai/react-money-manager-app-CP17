@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.money-details-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.money-cont {
+  width: 32%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+}
+.icon {
+  height: 32px;
+  width: 32px;
+  margin-right: 20px;
+}
+
+.head {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.amount {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.balance {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.expenses {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
