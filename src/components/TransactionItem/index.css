@@ -11,12 +11,9 @@
   align-items: center;
 }
 .heading {
-  max-width: 15%;
-  min-width: 15px;
+  width: 30%;
   font-family: 'Roboto';
   font-size: 12px;
-  margin-right: 180px;
-  margin-left: 10px;
 }
 .btn {
   outline: none;
